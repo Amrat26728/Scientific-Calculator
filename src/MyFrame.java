@@ -1,4 +1,3 @@
-import java.awt.Color;
 import java.awt.Container;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -740,7 +739,6 @@ public class MyFrame extends JFrame implements ActionListener{
 			}
 		});
 		
-		
 		off.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e)
 			{
@@ -783,8 +781,7 @@ public class MyFrame extends JFrame implements ActionListener{
 				
 			}
 		});
-		
-		
+                
 		on.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e)
 			{
@@ -827,13 +824,8 @@ public class MyFrame extends JFrame implements ActionListener{
 			}
 		});
 		
-		
-		
-		
-		
 		setVisible(true);
 	}
-
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
@@ -841,5 +833,4 @@ public class MyFrame extends JFrame implements ActionListener{
 		
 	}
 	
-
 }
